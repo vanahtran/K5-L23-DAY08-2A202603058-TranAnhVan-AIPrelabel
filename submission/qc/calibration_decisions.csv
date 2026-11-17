@@ -1,1 +1,4 @@
 case_id,image,nguon,van_de,quyet_dinh,quy_tac_ghi_vao_guideline,phien_ban_guideline
+case_01,img_011.jpg,loi_may,YOLO26 nhan nham xe tuk-tuk thanh car hoac truck,Ket hop YOLOE voi prompt three_wheeler va uu tien nhan YOLOE khi IoU >= 0.5,Moi phuong tien 3 banh deu gan three_wheeler khong phu thuoc kich thuoc,v1.1
+case_02,img_013.jpg,cau_hoi_mo,Nguoi ngoi tren xe ba banh bi che khuat 1 phan boi khung xe,Gan person neu phan nhin thay >= 20% dien tich co the,Chi bo qua khi bi che > 80% theo quy tac che khuat chung,v1.1
+case_03,img_018.jpg,bay_lot,Bay loose tren xe may trong bai do bi bo sot do mat qua quen voi box may,Tang cuong checklist kiem tra ky cac cum xe do truoc khi chap nhan box,Quet anh bang mat truoc khi bat lop bounding box cua may,v1.1
