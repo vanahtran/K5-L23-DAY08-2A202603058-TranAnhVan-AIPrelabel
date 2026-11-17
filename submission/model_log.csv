@@ -1,1 +1,5 @@
 run_id,part,model,params,split,n_boxes,sec_per_img,what_went_right,what_went_wrong,decision
+run_01,part2,yolo26,conf=0.25 size=m,pilot,78,0.12,Phat hien tot person va car tren anh sang ro,Nhan nham tuk-tuk thanh car o img_011 va bo sot xe may o xa,Tang conf de loai bot false positive
+run_02,part2,yolo26,conf=0.5 size=m,pilot,52,0.11,Giam nhieu box rac bot false positive,Bo sot nhieu xe may va nguoi o xa duoi 20px o img_016,Can swept threshold theo tung class
+run_03,part2,yoloe,classes=three_wheeler conf=0.25,pilot,14,0.18,Nhan dien chinh xac tuk-tuk va xich lo ma YOLO26 bo quen,Box con hoi long chua om sat banh xe o img_002,Gop voi YOLO26 de bo sung lop three_wheeler
+run_04,part2,sam,sam2.1_b.pt pos/neg clicks,pilot,3,0.45,Mask om rat sat bien dang xe tuk-tuk va cat got chinh xac,Mot click ban dau bi lan sang nguoi lai xe phai them click am de tach,Su dung SAM 2.1 base lam segmenter chinh cho lab
